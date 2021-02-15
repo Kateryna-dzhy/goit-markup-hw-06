@@ -628,11 +628,13 @@ img {
   display: flex;
   flex-direction: column;
   margin-right: 70px;
+  width: 100%;
 }
 .footer-block-connect {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  margin-right: 93px;
 }
 .footer-social-links-list {
   display: flex;
@@ -676,7 +678,8 @@ img {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  margin-left: 93px;
+  width: 100%;
+  
 }
 
 .footer-call-to-action {
@@ -690,7 +693,9 @@ img {
 }
 .footer-modal-form-wrapper {
   display: flex;
-  align-items: flex-start;
+  width: 570px;
+  /*align-items: flex-start;*/
+  
 }
 
 .footer-modal-form-input {
@@ -702,7 +707,12 @@ img {
   filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.15));
 
   padding-left: 12px;
-  margin-right: 12px;
+  
+
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.250;
 
 }
 
@@ -727,6 +737,8 @@ img {
   padding-bottom: 10px;
   padding-top: 10px;
   border-radius: 4px;
+  margin-left: 12px;
+  
 
   font-weight: 700;
   font-size: 16px;
@@ -736,7 +748,7 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  /*margin-right: 10px;*/
+  
 }
 
 .send-icon {
